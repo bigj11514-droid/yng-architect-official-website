@@ -207,6 +207,9 @@ a {
   padding-top: 40px;
 }
 .detail-grid {
+  padding: 20px;
+}
+.section-cont{
   display: grid;
   gap: 28px;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -263,6 +266,12 @@ a {
   }
   .hero {
     min-height: 80vh;
+  }
+  .section-cont{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
   }
 }
 @media (max-width: 600px) {
